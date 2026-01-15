@@ -37,3 +37,13 @@ model superuser {
   password_hash String?
 
 }
+
+model employee {
+  id        Int     @id @default(autoincrement())
+  casino_name   String
+  name     String
+  gender String
+  email    String
+  phone_number String?
+
+}
